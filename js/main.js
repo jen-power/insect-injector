@@ -12,13 +12,13 @@ var writeInsects = function (bugs) {
 
   bugs.forEach(function (bug) {
     document.write('<li>');
-    document.write('<h2>' + bug.name + '</h2>');
-    document.write('<img src="images/' + bug.img + '" alt="">');
+    document.write(`<h2>${bug.name}</h2>`);
+    document.write(`<img src="images/${bug.img}" alt="">`);
     document.write('<dl>');
     document.write('<dt>Family</dt>');
-    document.write('<dd><i>' + bug.family + '</i></dd>');
+    document.write(`<dd><i>${bug.family}</i></dd>`);
     document.write('<dt>Size</dt>');
-    document.write('<dd>' + bug.size[0] + '–' + bug.size[1] + ' mm</dd>');
+    document.write(`<dd>${bug.size[0]}–${bug.size[1]} mm</dd>`);
     document.write('<dt>Eats</dt>');
 
     document.write('<dd>');
