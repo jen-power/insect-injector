@@ -1,4 +1,5 @@
 repo: "insect-injector"
+canvasCourse: javascript
 
 naming: true
 restrictFileTypes: true
